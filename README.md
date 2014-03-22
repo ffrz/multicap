@@ -1,11 +1,11 @@
 multicap
 ========
 
-*PANDUAN INSTALASI DAN KONFIGURASI
+* PANDUAN INSTALASI DAN KONFIGURASI
 
-1. Copy paste direktori ini ke sebuah lokasi misal di D:\multicap
+- Copy paste direktori ini ke sebuah lokasi misal di D:\multicap
 
-2. Jalankan multicapsettings.exe lalu set pengaturan:
+- Jalankan multicapsettings.exe lalu set pengaturan:
    - Service
      - Address
        Alamat listen layanan multicapd, tidak perlu diubah. Defaultnya adalah 0.0.0.0
@@ -23,16 +23,16 @@ multicap
        Silahkan tentukan masing-masing device, Device yang dipilih TIDAK BOLEH ADA YANG SAMA atau jika ada
        yang sama, aplikasi akan CRASH!
        
-3. Terapkan pengaturan dengan mengklik tombol [Apply]
-4. Tutup pengaturan multicap klik tombol [X] atau [Close]
-5. Jalankan layanan multicapd.exe,
+- Terapkan pengaturan dengan mengklik tombol [Apply]
+- Tutup pengaturan multicap klik tombol [X] atau [Close]
+- Jalankan layanan multicapd.exe,
    - PASTIKAN layanan multicapd.exe sudah berjalan, buka Windows Task Manager dan pastikan multicapd.exe ada di daftar proses
    - Untuk menghentikan layanan multicapd.exe, buka Windows Task Manager dan pilih proses multicapd.exe, lalu klik [ End Process ]
-6. Silahkan coba layanan dengan membuka file excel "multicap_test.xlsm"
+- Silahkan coba layanan dengan membuka file excel "multicap_test.xlsm"
    - Klik tombol Multi Capture Test
    - PASTIKAN hasil capture tersimpan sesuai pengaturan "Destination Directory" pada aplikasi multicapsettings
 
-*PANDUAN PENGGUNAAN MULTICAP DARI VBA
+* PANDUAN PENGGUNAAN MULTICAP DARI VBA
 Panggil multicap.exe diikuti parameter id transaksi.
 Contoh Kode VBA:
   Dim id_transaksi AS String
@@ -43,5 +43,5 @@ Contoh Kode VBA:
   'Panggil multicap client diikuti id_transaksi
   Shell("D:\multicap\multicap.exe " & id_transaksi)
 
-*TROUBLESHOOT
+* TROUBLESHOOT
 Untuk sementara hubungi yang bikin, :D
