@@ -1,8 +1,7 @@
 multicap
 ========
 
-PANDUAN INSTALASI DAN KONFIGURASI
-=================================
+*PANDUAN INSTALASI DAN KONFIGURASI
 
 1. Copy paste direktori ini ke sebuah lokasi misal di D:\multicap
 
@@ -12,7 +11,6 @@ PANDUAN INSTALASI DAN KONFIGURASI
        Alamat listen layanan multicapd, tidak perlu diubah. Defaultnya adalah 0.0.0.0
        
      - Port
-       ====
        Port layanan multicapd, defaultnya 4321. Ubah HANYA jika bentrok dengan aplikasi lain.
        
    - Capture
@@ -34,8 +32,7 @@ PANDUAN INSTALASI DAN KONFIGURASI
    - Klik tombol Multi Capture Test
    - PASTIKAN hasil capture tersimpan sesuai pengaturan "Destination Directory" pada aplikasi multicapsettings
 
-PANDUAN PENGGUNAAN MULTICAP DARI VBA
-====================================
+*PANDUAN PENGGUNAAN MULTICAP DARI VBA
 Panggil multicap.exe diikuti parameter id transaksi.
 Contoh Kode VBA:
   Dim id_transaksi AS String
@@ -46,6 +43,5 @@ Contoh Kode VBA:
   'Panggil multicap client diikuti id_transaksi
   Shell("D:\multicap\multicap.exe " & id_transaksi)
 
-TROUBLESHOOT
-============
+*TROUBLESHOOT
 Untuk sementara hubungi yang bikin, :D
