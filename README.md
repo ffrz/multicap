@@ -1,12 +1,8 @@
 multicap
 ========
 
-<<<<<<< HEAD
 PANDUAN INSTALASI DAN KONFIGURASI
 ---------------------------------
-=======
-* PANDUAN INSTALASI DAN KONFIGURASI
->>>>>>> be6bb3e3c44399754246ab574744e976c4e31fbd
 
 - Copy paste direktori ini ke sebuah lokasi misal di D:\multicap
 
@@ -37,14 +33,9 @@ PANDUAN INSTALASI DAN KONFIGURASI
    - Klik tombol Multi Capture Test
    - PASTIKAN hasil capture tersimpan sesuai pengaturan "Destination Directory" pada aplikasi multicapsettings
 
-<<<<<<< HEAD
 PANDUAN PENGGUNAAN MULTICAP DARI VBA
 ---------------------------------
 - Panggil multicap.exe diikuti parameter id transaksi.
-=======
-* PANDUAN PENGGUNAAN MULTICAP DARI VBA
-Panggil multicap.exe diikuti parameter id transaksi.
->>>>>>> be6bb3e3c44399754246ab574744e976c4e31fbd
 Contoh Kode VBA:
   Dim id_transaksi AS String
   
@@ -54,10 +45,6 @@ Contoh Kode VBA:
   'Panggil multicap client diikuti id_transaksi
   Shell("D:\multicap\multicap.exe " & id_transaksi)
 
-<<<<<<< HEAD
 TROUBLESHOOT
 ------------
-=======
-* TROUBLESHOOT
->>>>>>> be6bb3e3c44399754246ab574744e976c4e31fbd
-Untuk sementara hubungi yang bikin, :D
+* Untuk sementara hubungi yang bikin, :D
