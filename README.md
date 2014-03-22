@@ -36,7 +36,8 @@ PANDUAN INSTALASI DAN KONFIGURASI
 PANDUAN PENGGUNAAN MULTICAP DARI VBA
 ---------------------------------
 - Panggil multicap.exe diikuti parameter id transaksi.
-Contoh Kode VBA:
+  Contoh Kode VBA:
+  ```vbnet
   Dim id_transaksi AS String
   
   'Simpan transaksi terlebih dahulu, lalu gunakan id transaksi untuk menyimpan foto
@@ -44,6 +45,7 @@ Contoh Kode VBA:
   
   'Panggil multicap client diikuti id_transaksi
   Shell("D:\multicap\multicap.exe " & id_transaksi)
+  ```
 
 TROUBLESHOOT
 ------------
